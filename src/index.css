@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #f90643;
+  --color-primary-dark: #d60036;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: white;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+}
+
+.grid-pattern {
+  background-image: radial-gradient(#10b98120 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(249, 6, 67, 0.5);
+}
+
+.card-glow {
+  box-shadow: 0 4px 20px -5px rgba(249, 6, 67, 0.15);
+}
+
+.secure-glow {
+  box-shadow: 0 0 15px -5px rgba(16, 185, 129, 0.2);
+}
+
+.blur-reveal {
+  filter: blur(5px);
+  transition: filter 0.3s ease;
+  user-select: none;
+}
+
+.group:hover .blur-reveal {
+  filter: blur(0);
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f90643;
+}
+
+.btn-glow {
+  box-shadow: 0 0 20px -5px rgba(249, 6, 67, 0.5);
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 30px -5px rgba(249, 6, 67, 0.7);
+}
+
+.input-blur {
+  filter: blur(3px);
+  transition: filter 0.2s ease;
+  will-change: filter;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.input-blur:focus, .input-blur:not(:placeholder-shown) {
+  filter: blur(0);
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+

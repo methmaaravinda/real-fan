@@ -1,0 +1,101 @@
+Create a modern, sleek dashboard UI with the following specifications:
+
+THEME & COLOR SCHEME:
+- Primary colors: Black background (#0a0a0a, #141414) with red accents (#ff0040)
+- Modern, dark theme with subtle red glowing effects
+- Clean, minimalist design with card-based layout
+
+HEADER (Top Section):
+- Left corner: Display "Secret Crush" as the logo/slogan in bold red text with a glowing effect
+- Right corner: Bell icon with a small red notification dot (to indicate new messages)
+- Header should be sticky and have a subtle backdrop blur effect
+- Border bottom with dark gray line
+
+SECTION DIFFERENTIATION (CRITICAL):
+Each section must be clearly distinguishable and visually separated:
+- Use distinct background colors or gradients for each section (darker/lighter variations of black)
+- Add clear section headers with large, bold titles and unique icons
+- Include horizontal divider lines or spacers between sections (with red accent lines)
+- Use different card styles or border colors for each section type
+- Add section numbers or labels (e.g., "01 Profile", "02 Credits", "03 Appointments")
+- Implement subtle background patterns or textures unique to each section
+- Use consistent spacing/padding but vary the internal layout for each section
+- Add colored accent bars on the left side of each section (red, dark red, gray variations)
+- Consider using collapsible/expandable sections with clear expand/collapse indicators
+- Each section should have its own visual "container" feel with proper borders and shadows
+- Increase spacing between sections (minimum 3rem gap)
+- Use glassmorphism or card elevation differences to create visual hierarchy
+
+MAIN CONTENT AREA (Between Header and Footer):
+The content should be scrollable and contain the following sections in order:
+
+1. USER PROFILE SECTION:
+   - Display User ID prominently
+   - Show Credit balance in a highlighted card
+
+2. CREDIT DETAILS SUBSECTION:
+   - Under the credit section, show a list of "who sent the appointment" 
+   - Display the money received from each sender
+   - Use cards with sender info and amount
+
+3. ONGOING APPOINTMENTS SECTION:
+   - Title: "Ongoing Appointments"
+   - Scrollable list of appointment cards showing:
+     * User ID
+     * Date and Time
+     * Category
+     * Status (with colored badge - green for active, yellow for pending)
+   - Each appointment should be in its own card
+
+4. EARNINGS SECTION:
+   - Title: "Earnings"
+   - Display in a grid or card layout:
+     * Total Earnings (large, prominent display)
+     * Yearly Earnings
+     * Monthly Earnings
+   - Each earning metric in its own card with icon
+
+5. MISSED OPPORTUNITIES SECTION:
+   - Title: "Missed Opportunities"
+   - Show the total money amount from missed opportunities
+   - Display in a red-tinted card to highlight the missed revenue
+
+FOOTER (Bottom Section):
+- Left side: Settings icon (gear icon)
+- Right side: "Quick Edit" text
+- Footer should be fixed at the bottom
+- Same style as header with backdrop blur
+
+SECURITY & PRIVACY DESIGN ELEMENTS (IMPORTANT):
+The UI should make users feel secure and their privacy is protected:
+- Add a small padlock icon or shield icon near sensitive information (credit balance, earnings)
+- Use subtle blur effects on sensitive data that clears on hover (like credit amounts, user IDs)
+- Add "Private" or "Secure" badges with lock icons on sections containing personal data
+- Include a privacy indicator in the header (small shield icon with "Secure Connection" text)
+- Use darker overlays and frosted glass effects to give a sense of protection
+- Add encryption indicators (small lock symbols) next to transaction amounts
+- Use subtle border glows in green around secure sections to indicate protection
+- Include a "Privacy Mode" toggle option that blurs all sensitive information
+- Add tooltips that say "This information is encrypted" when hovering over sensitive data
+- Use icons like eye-slash for hidden/protected data
+- Add subtle background patterns that suggest security (like digital encryption patterns or circuit board designs)
+
+DESIGN REQUIREMENTS:
+- Use modern fonts (like Outfit or similar sans-serif for body, Space Mono for headings)
+- Add subtle animations on hover and page load
+- Cards should have slight elevation/shadow effects with secure-looking borders
+- Make it responsive for mobile and desktop
+- Use smooth transitions and micro-interactions
+- Add a subtle grid or dot pattern in the background with security-themed elements
+- Ensure good spacing and breathing room between sections
+- All scrollable areas should have custom styled scrollbars
+- Dark, professional aesthetic that conveys trust and confidentiality
+- Minimal use of bright colors except for the red accent and security indicators (green/blue for secure elements)
+
+TECHNICAL:
+- Build as a single HTML file with inline CSS and JavaScript
+- Use modern CSS features (flexbox, grid, custom properties)
+- Ensure accessibility (proper contrast ratios, semantic HTML)
+- Make the UI functional with sample/dummy data
+
+Please create a complete, working HTML file with all styling and interactivity included.
